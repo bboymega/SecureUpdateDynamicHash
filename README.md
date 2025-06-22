@@ -1,5 +1,6 @@
 # SecureUpdateDynamicHash
 Secure Hotfix Update System with Dynamic Hash-Based Verification
+# Server
 ```
 usage: server.py [-h] [-c CONFIG_FILE] [-g PATH_TO_NEW_CONFIG_FILE]
 
@@ -12,7 +13,7 @@ options:
   -g, --generate PATH_TO_NEW_CONFIG_FILE
                         Generate a new configuration file, for example, config.json
 ```
-
+# Client
 ```
 usage: client.py [-h] [-c CONFIG_FILE] [-g PATH_TO_NEW_CONFIG_FILE]
 
