@@ -1,2 +1,2 @@
 # SecureUpdateDynamicHash
-Secure Hotfix System with Dynamic Hash-Based Verification
+Secure Hotfix Update System with Dynamic Hash-Based Verification
