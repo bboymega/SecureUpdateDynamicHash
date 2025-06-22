@@ -51,4 +51,4 @@ Client Configuration :
 | port | Update server port |
 
 # Installation
-During installation, ensure that `server.py` and `client.py` reside in the same directory as `partialhash.py`, since it contains the partial hashing functionality.
+During installation, ensure that `server.py` and `client.py` reside in the same directory as `partialhash.py`, as it contains the partial hashing module and is a required dependency.
