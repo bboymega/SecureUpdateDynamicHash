@@ -13,6 +13,17 @@ options:
   -g, --generate PATH_TO_NEW_CONFIG_FILE
                         Generate a new configuration file, for example, config.json
 ```
+Server Configuration :
+| KEY | VALUE |
+| ------------- | ------------- | 
+| allowed  | List of allowed client UUIDs    |
+| version  | Version of the target program/files served by the update server |
+| listen  | Listening address |
+| port | Listening port |
+| update_file | Update file served by the update server |
+| client_install_path | Path where the client will install the update  |
+| client_install_script | Install script that will be executed by the client |
+
 # Client
 ```
 usage: client.py [-h] [-c CONFIG_FILE] [-g PATH_TO_NEW_CONFIG_FILE]
@@ -26,3 +37,11 @@ options:
   -g, --generate PATH_TO_NEW_CONFIG_FILE
                         Generate a new configuration file, for example, config.json
 ```
+Client Configuration :
+| KEY | VALUE |
+| ------------- | ------------- | 
+| UUID  | Client UUID |
+| version  | Currently installed version of the target program/files on the client |
+| server | Update server address |
+| port | Update server port |
+
