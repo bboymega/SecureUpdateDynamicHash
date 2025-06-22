@@ -8,5 +8,5 @@
     "port": "15000",
     "update_file": "/path/to/update.bin",
     "client_install_path": "/path/to/client_install_path",
-    "client_install_script": "/path/to/client_install_script.sh"
+    "client_install_script": "/path/to/install_update.sh"
 }
