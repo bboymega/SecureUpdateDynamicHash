@@ -26,8 +26,8 @@ Server Configuration :
 | listen  | Listening address |
 | port | Listening port |
 | update_file | Update file served by the update server |
-| client_install_path | Path where the client will install the update  |
-| client_install_script | Install script that will be executed by the client |
+| client_install_path | Path on the client where the update will be installed |
+| client_install_script | Install script on the server that will be executed by the client during update installation |
 
 # Client
 ```
