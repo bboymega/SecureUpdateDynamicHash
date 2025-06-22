@@ -1,5 +1,10 @@
 # SecureUpdateDynamicHash
-Secure Hotfix Update System with Dynamic Hash-Based Verification
+This system utilises a high-performance, security-aware dynamic hashing mechanism to facilitate the reliable distribution of updates and hotfixes to designated client endpoints.
+
+Update payloads are partitioned at randomized offsets, with each segment individually hashed using CityHash64, XXH64, and SpookyHash64.
+
+A final integrity check is performed by computing a SHA-256 hash over the concatenated sequence of all segment hashes.
+
 # Server
 ```
 usage: server.py [-h] [-c CONFIG_FILE] [-g PATH_TO_NEW_CONFIG_FILE]
