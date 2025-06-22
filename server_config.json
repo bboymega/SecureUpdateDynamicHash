@@ -1,0 +1,12 @@
+{
+    "Allowed": [
+        "f24642a0-5490-4ffd-9988-6bb055bb6268",
+        "f24642a0-5490-4ffd-9988-6bb055bb6269"
+    ],
+    "version": "1.0.0",
+    "listen": "0.0.0.0",
+    "port": "15000",
+    "update_file": "/path/to/update.bin",
+    "client_install_path": "/path/to/client_install_path",
+    "client_install_script": "/path/to/client_install_script.sh"
+}
