@@ -96,12 +96,11 @@ def check_update(server_addr, server_port, client_data):
                 print("Executing install script...")
                 install_script = base64.b64decode(downloaded_data[4].decode("utf-8"))
                 try:
-                    subprocess.run(['bash', '-c', install_script], capture_output=True, text=True, check=True)
+                    subprocess.run(['sh', '-c', install_script], capture_output=True, text=True, check=True)
                 except subprocess.CalledProcessError as e:
                     RED = "\033[91m"
                     RESET = "\033[0m"
                     print(f"{RED}ERROR: Failed to execute install script.{RESET}")
-                  #  print(f"{RED}Exit code:", e.returncode, f"{RESET}")
                     print(f"{RED}\b", e.stderr, f"{RESET}")
                     exit(1)
                 client_data['version'] = version_info

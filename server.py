@@ -46,6 +46,8 @@ host = json_config_load['listen']
 port = int(json_config_load['port'])
 update_file_path = json_config_load['update_file']
 client_install_path = json_config_load['client_install_path']
+if not client_install_path.endswith('/'):
+    client_install_path = client_install_path + '/'
 client_install_script_path = json_config_load['client_install_script']
 server_socket.bind((host, port))
 server_socket.listen(1)
