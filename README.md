@@ -51,4 +51,12 @@ Client Configuration :
 | port | Update server port |
 
 # Installation
+| DEPENDENCIES |
+| ------------ |
+| xxhash |
+| cityhash |
+| spookyhash |
+
+Please install the dependencies listed above using either `pip install` or `python3 -m pip install`, depending on your environment configuration.
+
 During installation, ensure that `server.py` and `client.py` reside in the same directory as `partialhash.py`, as it contains the partial hashing module and is a required dependency.
