@@ -60,3 +60,28 @@ Client Configuration :
 Please install the dependencies listed above using either `pip install` or `python3 -m pip install`, depending on your environment configuration.
 
 During installation, ensure that `server.py` and `client.py` reside in the same directory as `partialhash.py`, as it contains the partial hashing module and is a required dependency.
+
+# Evaluation Scripts
+Performance Evaluation of Dynamic Partial Hashing
+| SCRIPT | FUNCTION |
+| ------------- | ------------- |
+| server.py  | Server |
+| client_evaluate.py | Client Evaluation for Elasped Time & Load Average |
+| client_evaluate_memory.py | Clinet Evaluation for Memory Usage |
+
+Performance Evaluation Evaluation of Dynamic Partial Hashing Variation with one Algorithm Replaced with MD5
+| SCRIPT | FUNCTION |
+| ------------- | ------------- |
+| server_md5_replace.py  | Server |
+| client_evaluate_md5_replace.py | Client Evaluation for Elasped Time & Load Average |
+| client_evaluate_md5_replace_memory.py | Clinet Evaluation for Memory Usage |
+
+Security Evaluation of Dynamic Partial Hashing
+| SCRIPT | FUNCTION |
+| ------------- | ------------- |
+| server.py  | Server |
+| client_evaluate_security.py | Clinet Evaluation for Split Parts & Attempts to Match the First Element |
+| client_evaluate_security_instructiontagarr.py | Clinet Evaluation for Attempts to Reproduce the Instruction Tag Array |
+
+
+
