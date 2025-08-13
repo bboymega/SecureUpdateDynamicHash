@@ -83,5 +83,26 @@ Security Evaluation of Dynamic Partial Hashing
 | client_evaluate_security.py | Clinet Evaluation for Split Parts & Attempts to Match the First Element |
 | client_evaluate_security_instructiontagarr.py | Clinet Evaluation for Attempts to Reproduce the Instruction Tag Array |
 
+Performance Evaluation of Piecewise Hashing
+| SCRIPT | FUNCTION |
+| ------------- | ------------- |
+| server_piecewise_md5.py  | Server |
+| client_piecewise_md5_evaluate.py | Client Evaluation for Elasped Time & Load Average |
+| client_piecewise_md5_evaluate_memory.py | Clinet Evaluation for Memory Usage |
+
+Performance Evaluation of Piecewise Hashing with Non-cryptographic Hashing Functions
+| SCRIPT | FUNCTION |
+| ------------- | ------------- |
+| server_piecewise_noncrypto.py | Server |
+| client_piecewise_noncrypto_evaluate.py | Client Evaluation for Elasped Time & Load Average |
+| client_piecewise_noncrypto_evaluate_memory.py | Clinet Evaluation for Memory Usage |
+
+Security Evaluation of Piecewise Hashing
+| SCRIPT | FUNCTION |
+| ------------- | ------------- |
+| server_piecewise_md5.py  | Server |
+| client_piecewise_evaluate_security.py | Clinet Evaluation for Split Parts & Attempts to Match the First Element |
+| client_piecewise_evaluate_security_instructiontagarr.py | Clinet Evaluation for Attempts to Reproduce the Instruction Tag Array |
+
 
 
